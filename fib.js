@@ -11,7 +11,7 @@ rl.on('line', line => {
 
 const fibonacci = n => {
   let a = 0n, b = 1n;
-  for (let i = 0; i < n; i++) {
+  for (let i = 0; i <= n; i++) {
     let c = a + b;
     a = b;
     b = c;
